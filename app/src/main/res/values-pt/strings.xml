@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Meu aplicativo Android</string>
+    <string name="toast">Notar</string>
+    <string name="count">Contar</string>
+    <string name="number">0</string>
+    <string name="mensaje">Nós contamos
+ </string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_marcador"
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        android:layout_above="@+id/btn_count"
+        android:layout_below="@+id/btn_toast"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="14dp"
+        android:background="#EEEE06"
+        android:gravity="center|top"
+        android:text="@string/number"
+        android:textColor="@color/colorBoton"
+        android:textSize="150sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:autoSizeMinTextSize="10sp"
+        android:autoSizeMaxTextSize="80sp"
+        android:autoSizeStepGranularity="2sp"/>
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+        android:onClick="showToast"
+        android:text="@string/toast"
+        android:background="#0000FF"
+        android:textColor="#ffff"
+        />
+    <Button
+        android:id="@+id/btn_count"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:onClick="countUp"
+        android:text="@string/count"
+        android:background="#0000FF"
+        android:textColor="#ffff"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LABORATORIO 1 Pastor</string>
+    <string name="toast">Aviso</string>
+    <string name="count">Contar</string>
+    <string name="number">0</string>
+    <string name="mensaje">Hemos contado </string>
+</resources>
